@@ -74,7 +74,7 @@ class _BubbleState extends State<Bubble> {
                 children: [
                   for (int i = 0; i < listOfValues.length; i++)
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(1.0),
                       child: Container(
                         color: (x1 == i || x1 + 1 == i) && x1 != -1
                             ? Colors.red
